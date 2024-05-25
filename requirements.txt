@@ -3,3 +3,4 @@ uvicorn[standard]
 gunicorn
 flake8
 pytest
+httpx
