@@ -24,4 +24,4 @@ COPY . .
 # Expose the port the app runs on
 
 # Run the application with gunicorn and uvicorn
-CMD ["gunicorn", "-k", "uvicorn.workers.UvicornWorker", "--bind", "0.0.0.0:8000", "main:app"]
+CMD ["gunicorn", "-k", "uvicorn.workers.UvicornWorker", "--bind", "0.0.0.0:8000", "app.main:app"]
