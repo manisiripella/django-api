@@ -83,7 +83,7 @@ Checks if the app can establish a socket connection to its own IP on port `8000`
 
 ## ⚙️ GitHub Actions CI
 
-Located at `.github/workflows/ci.yml`, the pipeline typically:
+Located at `.github/workflows/python-app.yml`, the pipeline typically:
 
 - Installs dependencies
 - Lints code
