@@ -132,12 +132,6 @@ pip install -r requirements.txt
 
 ---
 
-## 📬 License
-
-MIT License. See `LICENSE` for more info.
-
----
-
 ## 🛠 Author
 
 Made with ❤️ using FastAPI and Docker.
